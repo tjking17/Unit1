@@ -1,42 +1,56 @@
 package app;
 
+import javafx.scene.effect.BlurType;
+
 public class App {
+
     public static void main(final String[] args) throws Exception {
-        final Boolean hasAPet = false;
-        final char lastLetterofName = 'K';
-              byte howManycountries= (byte) 165;
-              short Bignumber= 100;
-              int myFavNum= 3609;
-              long myLeastfavNum= 1775093;
-              float decimalNum= (float) 12.22;
-              Double howMuchisDouble= (double) 22;
-
-             
-              
-            
-               
-            
+       
+    String person1;
+    String person2;
+    String verb1;
+    String verb2;
+    String verb3;
+    String place1;
+    String adjective;
+    String noun;
+    String noun2;
 
 
+
+
+
+
+    System.out.println("Jerry+ is a programmar who likes to" + "bake");
+    System.out.println("Jerry was a chef that liked pizza");
+    System.out.println("to make a pizza you need to smooth it out");
+    System.out.println("and make the thin rough crust");
+    System.out.println("then you cover it with red pastey sauce");
+    System.out.println("roughly cheese, and freshly cut peperonni");
+    System.out.println("next you have to bake it in a very hot oven");
+    System.out.println("when its done, cut it ");
+    System.out.println("into 12 triangles" );
+    System.out.println("some kids like cheese pizza the best, but my favorite:");
+    System.out.println("is pineapple pizza, if I could, I would eat pizza 100 times a day:");
+
+
+		
+
+      
+        
     
-       System.out.println(hasAPet);
-       System.out.println("Do I have a Pet?");
-       System.out.println(lastLetterofName);
-       System.out.println("The last letter of my name is:");
-       System.out.println(howManycountries);
-       System.out.println("There are 165");
-       System.out.println(Bignumber);
-       System.out.println("The big number for short is 100?");
-       System.out.println(myFavNum);
-       System.out.println("my fav number is:");
-       System.out.println(myLeastfavNum);
-       System.out.println("my least fav num is:");
-       System.out.println(decimalNum);
-       System.out.println("the decimal number is:");
-       System.out.println(howMuchisDouble);
-       System.out.println("its worth more then:");
+        
+
+        
+
+        
 
 
+
+      
+      
+      
+    
     
 
 
