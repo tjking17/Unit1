@@ -16,10 +16,11 @@ while (color == "blue"){
         color = "red";
 }
     
-    String person = "tj";
-    while (person == "tj"){
-        System.out.println("the person is"+ person);
+    System.out.println("Person finsihed");
+        String person;
+    System.out.println("the person is person");
         person = "tyler";
+        System.out.println("Person finsihed");
     }
 
         
@@ -42,4 +43,4 @@ while (color == "blue"){
     
     
 
-   {{{
+}
