@@ -1,5 +1,5 @@
 package app;
-
+import java.util.Scanner;
 
 
 public class App {
@@ -8,6 +8,11 @@ public class App {
 int count = 0;
 String color = "blue";
 boolean person = true;
+Scanner input = new Scanner(System.in);
+
+System.out.println("Enter a color");
+int number = 10;
+
 
 while (count<= 10);
 System.out.println("the count is"+ count);
