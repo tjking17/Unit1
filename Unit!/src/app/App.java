@@ -1,40 +1,22 @@
 package app;
 
-
-
 public class App {
 
     public static void main(final String[] args) throws Exception {
-     
-        for(int i = 0; i <=10; i = i +1){
-        System.out.println("The count is" + i);
-        System.out.println("Lets keep  counting.");
-        }
-       for(int i = 10; i <20; i = i + 1){
-           System.out.println("The count is" + i);
-           System.out.println("Lets keep counting.");
-       }
-       for(int i = 10; i <100; i = i + 1){
-           System.out.println("The count is" + i);
-           System.out.println("Lets keep counting.");
+        for (int i = 4; i < 20; i++) {
+            if (i % 2 ==0){
+                System.out.println(i + " Can 20 be divided by 4 ");
+            } else {
+                System.out.println(i + "Can 4 be divided by 20");
+            }          
+        }    for (int i = 1; i <= 10; i++) {
+                if (i % 2 == 0) {
+                    System.out.println(i + " is an even number");
+                } else {
+                    System.out.println(i + " is an odd number");
+                }
+            }
+        System.out.println("All finished");
 
-       }
-       for(int i = 1000; i <2625; i = i + 1){
-           System.out.println("The count is" + 1);
-           System.out.println("Lets keep counting.");
-       }
-        for(int i =11; i <12; i = i + 1){
-            System.out.println("The count is" + i);
-            System.out.println("Lets count down");
-        }
-        for(int i =10; i <0; i = i -1){
-            System.out.println("The count is" + i);
-            System.out.println("lets keep counting.");
-
-
-      
-    }  
+    }
 }
-}
-   
-	
