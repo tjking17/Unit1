@@ -1,33 +1,34 @@
-
-
+import java.util.Random;
 public class App {
+
     
 
     public static <and> void main(final String[] args) throws Exception {
+        int randNumber;
+        int userNumber;
+        Boolean win = false;
+        unsighed seed = int()time(0);
 
-       print("Enter correct username and password combo to continue");
-int count = 0;
-Object schoolRocks;
-Object password = schoolRocks;
-Object Tjk18;
-Object username = Tjk18;
-    {
-while password! = 'schoolRocks' and username! ='Tjk18' and count<4:
-    username = input('Enter username:'); and password=input('Enter password: '):
-    }
 
-    if password =='schoolRocks' and username; == 'Tjk18'
-     print("Access granted");
-    } 
+        srand(seed);
+        randNumber = 1 + rand()%10;
+        cout<<"im think of a number. Can you guess what it is?"<<endl;
+        cin>> userNumber;
 
-    else:
-        private static void print(String string) {
-    }
-{
-}
-
-    void print ("Access denied. Try again.')"
-        count-=1
+        while (!win)
         {
-        
+            if (userNUmber < randNumber)
+            {
+                cout<<"Too low, try again."<<endl;
+                cin>> userNumber;
+            }
+            else //Winner
+            {
+                cout<< "Congratulations, you guess the correct number." <<endl;
+                win = true;
+            }
         }
+        
+
+
+
