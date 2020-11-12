@@ -3,17 +3,31 @@ import app.Scanner;
 public class App {
     public static <and> void main(final String[] args) throws Exception {
      
-     String planets[] = {"Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune"};
      Scanner input = new Scanner(System.in);
 
-     System.out.println("please enter a planet");
-     String answer = input.nextLine();
+     int targetNum = 45;
+     boolean isFinished = false;
 
-     for (int i = 0; i < planets.length; i++){
-         if (answer.equals(planets[i])){
-             System.out.println(answer + "is position" + (i+1) + "from the sun");
-         }
+     while (isFinished == false) {
+
+
+        System.out.println("Guess a number between 0 and 100");
+        int guess = input.nextInt();
+        input.nextLine();
+
+        if (guess == targetNum){
+            System.out.println("Correct!");
+            isFinished = true;
         }
+
+        else if (guess < targetNum) {
+            System.out.println("LOW");
+        }
+
+        else {
+            System.out.println("HIGH");
+       
+    
     
 
     }
